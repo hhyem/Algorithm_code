@@ -18,4 +18,6 @@ int main() {
   a = calloc(size, sizeof(int));
 
   ary_rcopy(a, b, size);
+  
+  free(a);
 }
