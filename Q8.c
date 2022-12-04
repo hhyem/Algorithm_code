@@ -1,15 +1,19 @@
-//가우스 덧셈으로 1부터 n까지의 합 구하기
 #include <stdio.h>
+#include <stdlib.h>
+
+//b의 모든 요소를 배열 a에 복사하는 함수 
+void ary_copy(int a[], const int b[], int n) {  
+  for(int i=0; i<n; i++) {
+    a[i] = b[i];
+    printf("%d\n", a[i]);
+  }
+}
 
 int main() {
-    int n, sum = 0;
-    printf("1부터 n까지의 합을 구합니다.\n");
-    printf("n 값 : ");
-    scanf("%d", &n);
+  int b[] = {1,2,4,1,52,22,3};
+  int size = sizeof(b) / 4;
+  int *a;
+  a = calloc(size, sizeof(int));
 
-    sum = (1 + n) * n/2;
-
-    printf("1부터 n까지의 합 : %d\n", sum);
-
-    return 0;
+  ary_copy(a, b, size);
 }
