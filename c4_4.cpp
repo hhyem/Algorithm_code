@@ -1,6 +1,6 @@
-//헤더 파일 
-#include <iostream>
-using namespace std;
+//Adder.h
+#ifndef ADDER_H
+#define ADDER_H
 
 class Adder {
   int op1, op2;
@@ -9,14 +9,19 @@ public:
   int process();
 };
 
+#endif
+
+//Calculator.h
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 class Calculator {
 public:
   void run();
 };
+#endif
 
-//cpp 파일
-#include <iostream>
-using namespace std;
+//Adder.cpp
+#include "Adder.h"
 
 Adder::Adder(int a, int b) {
   op1 = a;
@@ -27,6 +32,13 @@ int Adder::process() {
   return op1 + op2;
 }
 
+//Calculator.cpp
+#include <iostream>
+using namespace std;
+
+#include "Calculator.h"
+#include "Adder.h"
+
 void Calculator::run() {
   cout << "두 개의 수를 입력하세요 >> ";
   int a, b;
@@ -35,10 +47,9 @@ void Calculator::run() {
   cout << adder.process();
 }
 
-//main cpp 파일 
-//헤더, cpp 파일 include 
-#include <iostream>
-using namespaces std;
+//main.cpp
+#include "Calculator.h"
+
 int main() {
   Calculator calc;
   calc.run();
