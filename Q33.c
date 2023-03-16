@@ -45,4 +45,7 @@ int main() {
 
   search_idx(a, n, key, idx);
   
+  free(a);
+  free(idx);
+  
 }
