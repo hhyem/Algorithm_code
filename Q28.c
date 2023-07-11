@@ -36,3 +36,43 @@ int main() {
   
   free(a);
 }
+
+//내가 짠 코드 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define swap(type, x, y) do {type t = x; x = y; y = t;} while(0);
+
+void shuffle(int a[], int n) {
+  srand(time(NULL));
+  int ran1 = 0, ran2 = 0;
+
+  for(int i=0; i<n/2; i++) {
+    ran1 = 0 + rand() % n;
+    ran2 = 0 + rand() % n;
+
+    swap(int, a[ran1], a[ran2]);    
+    
+  }
+
+  for(int i=0; i<n; i++) {
+    printf("%d ", a[i]);
+  }
+
+}
+
+int main() {
+  int n, *a;
+  printf("요소 개수 : ");
+  scanf("%d", &n);
+
+  a = calloc(n, sizeof(int));
+
+  for(int i=0; i<n; i++) {
+    printf("%d번째 요소 : ", i+1);
+    scanf("%d", &a[i]);
+  }
+
+  shuffle(a, n);
+}
