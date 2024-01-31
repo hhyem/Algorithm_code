@@ -45,3 +45,30 @@ int main(void) {
   nrpira(n);
   
 }
+
+//내가 짠 코드
+#include <stdio.h>
+
+void nspira(int n) {
+  int t = 1;
+  int p = 0; 
+  for(int i=n; i>=1; i--) {
+    p = t % 10;
+    for(int j=n-i; j>0; j--)
+      printf(" ");
+    for(int k=(i-1) * 2 + 1; k>0; k--) 
+      printf("%d", p);
+    printf("\n");
+    t +=1;
+  }
+}
+
+int main(void) {
+  int n;
+  printf("높이 : ");
+  scanf("%d", &n);
+  printf("\n");
+  nspira(n);
+  
+  return 0;
+}
