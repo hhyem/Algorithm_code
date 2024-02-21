@@ -1,3 +1,5 @@
+//네 값의 최대값을 구하는 함수 max4 작성하기
+
 #include <stdio.h>
 
 int max4(int a, int b, int c, int d) {
