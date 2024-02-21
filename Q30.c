@@ -1,3 +1,5 @@
+//날짜를 나타내는 구조체
+
 #include <stdio.h>
 #define VMAX 21
 
@@ -7,10 +9,14 @@ typedef struct {
   int d;
 } Date;
 
+//y년 m월 d일을 나타내는 구조체 반환하는 함수
 Date DateOf(int y, int m, int d) {
   printf("%d년 %d월 %d일 \n", y, m, d);
 };
 
+//날짜 x의 n일 뒤의 날짜 반환
+//조건 1. d가 28/29/30/31을 넘길 때
+//조건 2. m이 12을 넘길 떄
 Date After(Date x, int n) {
   x.d += n;
   while(x.d > 27) {
@@ -39,6 +45,7 @@ Date After(Date x, int n) {
   printf("%d일 뒤의 날짜는 : %d년 %d월 %d일\n", n, x.y, x.m, x.d);
 }
 
+//날짜 x의 n일 앞의 날짜 반환
 Date Before(Date x, int n) {
   x.d -= n;
   while(x.d < 0) {
