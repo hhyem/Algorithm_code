@@ -1,3 +1,5 @@
+//정수 a,b를 포함하여 그 사이의 모든 정수의 합을 구하는 함수 작성하기
+
 #include <stdio.h>
 
 int sumof(int a, int b) {
