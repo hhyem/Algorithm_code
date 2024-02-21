@@ -1,3 +1,5 @@
+//배열 a의 모든 요소의 순서를 뒤섞는 shuffle 함수 
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
