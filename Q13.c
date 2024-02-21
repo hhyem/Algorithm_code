@@ -1,3 +1,5 @@
+//곱셈이 아니라 덧셈을 출력하는 프로그램
+
 #include <stdio.h>
 
 int main() {
