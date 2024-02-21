@@ -1,3 +1,6 @@
+//키를 난수로 생성한 후 최대값 구하기 
+//사람 수도 난수로 구한다.
+
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
