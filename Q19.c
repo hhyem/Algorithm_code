@@ -1,3 +1,5 @@
+//키 최소값 구하는 프로그램
+
 #include <stdio.h>
 #include <stdlib.h>
 
