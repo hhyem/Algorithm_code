@@ -1,3 +1,5 @@
+//세 값의 대소 관계 13종류의 모든 조합에 대해 중앙값을 구하여 출력하는 프로그램 
+
 #include <stdio.h>
 
 int med3(int a, int b, int c) {
@@ -20,7 +22,7 @@ int main() {
 
 	int a, b, c;
 
-	printf("�� ������ �߾Ӱ� ���ϱ� \n");
+	printf("세 정수의 중앙값 구하기 \n");
 
 	printf("med3(%d, %d, %d) = %d\n", 3, 2, 1, med3(3, 2, 1)); /* [A] a > b > c */
 	printf("med3(%d, %d, %d) = %d\n", 3, 2, 2, med3(3, 2, 2)); /* [B] a > b = c */
@@ -37,6 +39,6 @@ int main() {
 	printf("med3(%d, %d, %d) = %d\n", 1, 2, 3, med3(1, 2, 3)); /* [M] c > b > a */
 
 
-	printf("�߾Ӱ��� %d�Դϴ�. \n", med3(a,b,c));	
+	printf("중앙값은 %d입니다. \n", med3(a,b,c));	
 
 }
