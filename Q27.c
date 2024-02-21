@@ -1,3 +1,5 @@
+//b의 모든 요소를 배열 a에 역순으로 복사하기 
+
 #include <stdio.h>
 
 void ary_rcopy(int a[], const int b[], int n) {
