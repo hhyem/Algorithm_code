@@ -1,3 +1,5 @@
+//네 값의 최소값을 구하는 min4 함수 작성하기
+
 #include <stdio.h>
 
 int min4(int a, int b, int c, int d) {
