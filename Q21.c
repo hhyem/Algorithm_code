@@ -1,3 +1,5 @@
+//키 평균 구하기
+
 #include <stdio.h>
 #include <stdlib.h>
 
