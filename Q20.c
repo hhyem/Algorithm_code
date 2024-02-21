@@ -1,3 +1,5 @@
+//키의 총 합계 구하기
+
 #include <stdio.h>
 #include <stdlib.h>
 
