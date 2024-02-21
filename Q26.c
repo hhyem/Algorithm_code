@@ -1,3 +1,6 @@
+//배열 b의 모든 요소를 배열 a에 복사하는 함수 
+//const : 읽기만 가능, 상수(변할 수 없는 변수)
+
 #include <stdio.h>
 
 void ary_copy(int a[], const int b[], int n) {
