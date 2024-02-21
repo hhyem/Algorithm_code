@@ -1,3 +1,6 @@
+//n단의 피라미드를 출력하는 함수 
+//i행에는 (i-1) * 2 + 1 개의 기호문자 *를 출력한다. 
+
 #include <stdio.h>
 
 void spira(int n) {
