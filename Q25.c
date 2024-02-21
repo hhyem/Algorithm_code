@@ -1,3 +1,6 @@
+//기수 변환 과정 출력하기
+//나머지를 나누어지는 수의 오른쪽에 출력한다.
+
 #include <stdio.h>
 
 int card_convr(unsigned x, int n, char d[]) {
