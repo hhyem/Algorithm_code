@@ -1,3 +1,5 @@
+//세 값의 최소값을 구하는 min3 함수 작성하기
+
 #include <stdio.h>
 
 int min3(int a, int b, int c) {
