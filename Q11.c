@@ -1,3 +1,5 @@
+//양의 정수를 입력하고 자릿수를 출력하는 프로그램
+
 #include <stdio.h>
 
 int main() {
