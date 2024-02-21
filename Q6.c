@@ -1,3 +1,5 @@
+//while문이 종료될 떄 변수 i 값이 n+1이 됨을 확인한다 (변수 i값 출력하기)
+
 #include <stdio.h>
 
 int main() {
