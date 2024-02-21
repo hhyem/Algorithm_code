@@ -1,3 +1,5 @@
+//배열 요소를 역순으로 정렬하는 과정을 출력한다.
+
 #include <stdio.h>
 #include <stdlib.h>
 
