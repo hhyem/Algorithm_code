@@ -1,3 +1,5 @@
+//요소 값이 내림차순으로 정렬된 long 형 배열에서의 검색을 bsearch 함수 사용하여 작성하기 
+
 #include <stdio.h>
 #include <stdlib.h>
 
