@@ -1,3 +1,5 @@
+//searh 함수를 while문이 아니라 for문 사용하기
+
 #include <stdio.h>
 #include <stdlib.h>
 
