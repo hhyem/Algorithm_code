@@ -1,3 +1,5 @@
+//선형 검색 스캔 과정을 상세하기 표시하기
+//각 행의 맨 왼쪽에 현재 검색하는 요소의 인덱스 표시하고, 현재 검색하고 있는 요소 위에 별표 기호 * 표시한다.
 //https://krylon.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8Dc-printf-string-format-s %*s
 
 #include <stdio.h>
