@@ -1,3 +1,5 @@
+//bsearch 함수와 같은 형식으로 호출할 수 있는 이진 검색 알고리즘 사용하여 작성하기
+
 #include <stdio.h>
 #include <stdlib.h>
 
