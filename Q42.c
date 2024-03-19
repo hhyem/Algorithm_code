@@ -1,3 +1,6 @@
+//큐 구현하는 프록램
+//큐를 관리하는 구조체는 ArrayIntQueue를 사용한다.
+
 /* Q3 int형 큐 ArrayIntQueue의 사용 */
 #include <stdio.h>
 #include "ArrayIntQueue.h"
