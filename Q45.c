@@ -1,3 +1,8 @@
+//덱 deck은 양방형 대기열(deque/double ended queue)로 시작과 끝 지점에서 양쪽으로 데이터를 인큐하거나 디큐하는 자료구조이다.
+//양방향 대기열을 구현하는 프로그램을 만든다. 
+//덱에 저장하는 데이터의 자료형은 int형이다. 
+//[맨 앞] 인큐/디큐    인큐/디큐 [맨 끝]
+
 #include <stdio.h>
 #include "IntDequeue.h"
 
